@@ -1,0 +1,36 @@
+.form {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border {
+    background-color: #ccc;
+    border-radius: 30px;
+    padding: 50px;
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 14px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 16px;
+}
+
+.resultado {
+    display: block;
+    font-weight: bold;
+}
+
+.seuIMC {
+    background-color: green;
+    padding: 10px;
+}
